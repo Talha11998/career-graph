@@ -3,7 +3,7 @@ from "./components/Navbar";
 
 
 import Dashboard
-from "./pages/Dashboard";
+from "./Pages/Dashboard";
 
 
 export default function App(){
