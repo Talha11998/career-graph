@@ -5,7 +5,7 @@ const api =
 axios.create({
 
 baseURL:
-"http://localhost:5000/api"
+"https://career-graph.onrender.com/api"
 
 });
 
