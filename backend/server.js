@@ -40,9 +40,6 @@ app.use(
 
 });
 
-app.listen(
-process.env.PORT || 5000,
-()=>console.log(
-`Server running on PORT ${PORT}`,
-)
-);
+app.listen(process.env.PORT || 5000, () => {
+  console.log(`Server running`);
+});
